@@ -1,0 +1,1 @@
+<view class="card"><block wx:if="{{showhead}}"><view class="{{['pt-1','main-border-color',getHeadClass]}}"><block wx:if="{{headTitle}}"><text class="font-sm font-weight">{{headTitle}}</text></block></view></block><view class="{{[getBodyClass]}}"><block wx:if="{{bodyCover}}"><image src="{{bodyCover}}" mode="widthFix"></image></block><slot></slot></view></view>
